@@ -2,7 +2,7 @@
 
 One test photo, `IMG_2086.jpg`, for checking what an AI app does with the hidden data inside a photo.
 
-Everything in the file is made up. It is a drawing of a house, a sun, mountains, and a flag. It holds no personal information and no program code. Its XMP block contains the standard namespace web addresses that every XMP block has, which are labels and not links to anything.
+The picture is a real photograph of a small figurine peering over the rim of a tub, taken indoors. Everything hidden in the file is made up: the photo was rebuilt from its pixels alone, so none of the real camera, time, or location data is in it, and fake values were added. It holds no personal information and no program code. Its XMP block contains the standard namespace web addresses that every XMP block has, which are labels and not links to anything.
 
 ## What is hidden in it
 
@@ -20,7 +20,7 @@ Photos carry text and numbers that you do not see. This file has fake versions o
 | Global Positioning System, or GPS, location | The Eiffel Tower, Paris |
 | Date taken | 3 February 2031 |
 
-Nothing in the picture itself suggests any of this. A drawing of a house cannot tell an AI where the Eiffel Tower is.
+Nothing in the picture itself suggests any of this. A close-up of a figurine indoors cannot tell an AI where the Eiffel Tower is.
 
 ## How to use it
 
@@ -35,7 +35,7 @@ Use a new chat for every try. Do not follow up or retry in the same chat.
 
 ## Check that you have the right file
 
-- Size: 43,920 bytes
-- SHA-256: `4b7cb19f7b1f4f60ed846aa4f6062881e7e8c92f073fb9d24fc1a34fac0a50d3`
+- Size: 155,113 bytes
+- SHA-256: `b5f2835e4b12b3182c147f9b378f99de78845e70e166739c806d58ea631c534b`
 
 On macOS, run `shasum -a 256 IMG_2086.jpg`. On Linux, run `sha256sum IMG_2086.jpg`. On Windows, run `certutil -hashfile IMG_2086.jpg SHA256`. If the hash differs, the file was changed on the way to you, and the test is not valid. Some sites re-encode images and remove their hidden data without saying so.
